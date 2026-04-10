@@ -63,7 +63,6 @@ params_t set_param(void)
     reset_pipeline(&pipeline);
     params.execs = pipeline;
     return params;
-
 }
 
 int set_program(params_t *params, char **envp)
