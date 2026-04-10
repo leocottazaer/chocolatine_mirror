@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 0
 
       - name: Check coding style
-        run: check.sh $(pwd) $(pwd)
+        run: banana-check-repo
 
       - name: Display style errors
         run: |
