@@ -50,7 +50,7 @@ void reset_pipeline(pipeline_ctx_t *pipeline)
     pipeline->rdr = NULL;
 }
 
-params_t set_param()
+params_t set_param(void)
 {
     params_t params;
     shell_t sh;
